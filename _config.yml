@@ -1,0 +1,59 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: A new way to donate to charity
+description: |
+  Saving the world one milestone at a time
+owner: Giveth # or company name
+first_published: 2017 # if migrating another site, the year of your first publish
+email: contactus@giveth.io
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://giveth.io" # the base hostname & protocol for your site
+social:
+  slack: http://slack.giveth.io
+  twitter: https://twitter.com/givethio
+  github: https://github.com/givethio
+  # github: https://medium.com/giveth/the-minime-token-open-sourced-by-giveth-2710c0210787
+  # github: https://medium.com/giveth/the-vault-contract-open-sourced-by-giveth-fe2261f7b91b
+  facebook-official: https://facebook.com/givethio
+  # google-plus-square: https://plus.google.com/u/0/+<username>
+  #email: /contact/
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
