@@ -490,6 +490,7 @@ ol li { padding-left: 0.25em; }
 
 ul { list-style: disc; margin: 0 0 2em 0; padding-left: 1em; }
 ul li { padding-left: 0.5em; }
+ul .ethereum-icon { max-height: 100px; }
 ul.alt { list-style: none; padding-left: 0; }
 ul.alt li { border-top: solid 1px #fff; padding: 0.5em 0; }
 ul.alt li:first-child { border-top: 0; padding-top: 0; }
@@ -744,7 +745,7 @@ body.is-menu-visible #menu { -moz-transform: translateX(0); -webkit-transform: t
 
 /* Banner */
 #banner { display: -moz-flex; display: -webkit-flex; display: -ms-flex; display: flex; -moz-flex-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -moz-justify-content: center; -webkit-justify-content: center; -ms-justify-content: center; justify-content: center; cursor: default; height: 100vh; min-height: 35em; overflow: hidden; position: relative; text-align: center; }
-#banner h2 { -moz-transform: scale(1); -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease; -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease; -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease; transition: transform 0.5s ease, opacity 0.5s ease; display: inline-block; font-size: 1.75em; opacity: 1; padding: 0.35em 1em; position: relative; z-index: 1; }
+#banner h2 { -moz-transform: scale(1); -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease; -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease; -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease; transition: transform 0.5s ease, opacity 0.5s ease; display: inline-block; font-size: 2em; opacity: 1; padding: 0.35em 1em; position: relative; z-index: 1; }
 #banner h2:before, #banner h2:after { -moz-transition: width 0.85s ease; -webkit-transition: width 0.85s ease; -ms-transition: width 0.85s ease; transition: width 0.85s ease; -moz-transition-delay: 0.25s; -webkit-transition-delay: 0.25s; -ms-transition-delay: 0.25s; transition-delay: 0.25s; background: #fff; content: ''; display: block; height: 2px; position: absolute; width: 100%; }
 #banner h2:before { top: 0; left: 0; }
 #banner h2:after { bottom: 0; right: 0; }

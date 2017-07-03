@@ -7,7 +7,7 @@ description: |
   Saving the world one milestone at a time
 owner: Giveth # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
-email: contactus@giveth.io
+email: hi@giveth.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://giveth.io" # the base hostname & protocol for your site
 social:
@@ -21,7 +21,7 @@ social:
   #email: /contact/
   #flickr:
   #instagram:
-  #youtube-square:
+  youtube-square: https://www.youtube.com/watch?v=VaIbmxk2eio&list=PL4Artm1rmCWGyz-BWv1-8Ip26XIauCLo9
   #spotify:
   #stack-overflow:
   #vimeo:
