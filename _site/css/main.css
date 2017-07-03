@@ -493,7 +493,7 @@ ul li { padding-left: 0.5em; }
 ul.alt { list-style: none; padding-left: 0; }
 ul.alt li { border-top: solid 1px #fff; padding: 0.5em 0; }
 ul.alt li:first-child { border-top: 0; padding-top: 0; }
-ul.icons { cursor: default; list-style: none; padding-left: 0; }
+ul.icons { cursor: default; list-style: none; padding-left: 0; font-size: xx-large; }
 ul.icons li { display: inline-block; padding: 0 1em 0 0; }
 ul.icons li:last-child { padding-right: 0 !important; }
 ul.icons.major { padding: 1em 0; }
@@ -788,7 +788,7 @@ body.is-mobile #main > header { background-attachment: scroll; }
 
 /* Footer */
 #footer { padding: 6em 0 4em 0 ; background-color: #1d242a; text-align: center; }
-#footer .icons { font-size: 1.25em; }
+#footer .icons { font-size: xx-large; }
 #footer .icons a { color: rgba(255, 255, 255, 0.5); }
 #footer .icons a:hover { color: #fff; }
 #footer .copyright { color: rgba(255, 255, 255, 0.5); font-size: 0.8em; letter-spacing: 0.225em; list-style: none; padding: 0; text-transform: uppercase; }

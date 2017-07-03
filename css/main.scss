@@ -588,6 +588,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			font-size: xx-large;
 
 			li {
 				display: inline-block;
@@ -1737,7 +1738,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-align: center;
 
 		.icons {
-			font-size: 1.25em;
+			font-size: xx-large;
 
 			a {
 				color: _palette(fg-light);
