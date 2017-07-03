@@ -9,6 +9,20 @@ layout: landing
 							<ul class="actions">
 								<li><a href="#" class="button special">Start</a></li>
 							</ul>
+
+						  <ul class="icons">
+						    {% for socloc in site.social %}
+						    {% if socloc[1] %}
+						    {% if socloc[0] == 'email' %}
+						    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope-o"
+						           ><span class="label">E-mail</span></a></li>
+						    {% else %}
+						    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}"
+						           ><span class="label">{{ socloc[0] }}</span></a></li>
+						    {% endif %}
+						    {% endif %}
+						    {% endfor %}
+						  </ul>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
 					</section>
@@ -34,14 +48,14 @@ layout: landing
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
 								<h2>Have a say</h2>
-								<p>Many donations are a black box.  You give money but don't know where it goes.  Unlike traditional donating, you can choose which specific milestone your donations are used for.</p>
+								<p>Many donations are a black box.  You give money but don't know where it goes.  Unlike traditional donating, you can choose which specific milestones your donations are used for.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
 								<h2>Results mater </h2>
 								<p>We built the Giveth network on community values of transparancy and acountability.  Unlike traditional donating, milestones must be completed before donations are released.
-								Miletsone completions are confirmed by a simple review process.</p>
+								Milestone completions are confirmed by a simple review process.</p>
 							</div>
 						</section>
 						<!-- <section class="spotlight">

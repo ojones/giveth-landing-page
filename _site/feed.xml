@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A new way to donate to charity</title>
+    <title>Giveth</title>
     <description>Saving the world one milestone at a time
 </description>
-    <link>http://giveth.io/</link>
-    <atom:link href="http://giveth.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Jul 2017 22:55:20 -0700</pubDate>
-    <lastBuildDate>Sun, 02 Jul 2017 22:55:20 -0700</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 03 Jul 2017 00:09:31 -0700</pubDate>
+    <lastBuildDate>Mon, 03 Jul 2017 00:09:31 -0700</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
   </channel>
 </rss>
