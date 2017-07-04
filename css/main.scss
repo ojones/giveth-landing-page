@@ -592,7 +592,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
-			font-size: xx-large;
+			font-size: x-large;
 
 			li {
 				display: inline-block;
@@ -1593,7 +1593,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			min-height: 0;
 
 			h2 {
-				font-size: 1.25em;
+				// font-size: 1.25em;
 			}
 
 			br {
@@ -1719,7 +1719,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				@include padding(5em, 3em);
 
 				h2 {
-					font-size: 1.25em;
+					// font-size: 1.25em;
 					margin: 0 0 (_size(element-margin) * 0.5) 0;
 				}
 			}

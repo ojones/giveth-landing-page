@@ -494,7 +494,7 @@ ul .ethereum-icon { max-height: 100px; }
 ul.alt { list-style: none; padding-left: 0; }
 ul.alt li { border-top: solid 1px #fff; padding: 0.5em 0; }
 ul.alt li:first-child { border-top: 0; padding-top: 0; }
-ul.icons { cursor: default; list-style: none; padding-left: 0; font-size: xx-large; }
+ul.icons { cursor: default; list-style: none; padding-left: 0; font-size: x-large; }
 ul.icons li { display: inline-block; padding: 0 1em 0 0; }
 ul.icons li:last-child { padding-right: 0 !important; }
 ul.icons.major { padding: 1em 0; }
@@ -755,7 +755,6 @@ body.is-menu-visible #menu { -moz-transform: translateX(0); -webkit-transform: t
 #banner .more:after { background-image: url("images/arrow.svg"); background-position: center; background-repeat: no-repeat; background-size: contain; bottom: 4em; content: ''; display: block; height: 1.5em; left: 50%; margin: 0 0 0 -0.75em; position: absolute; width: 1.5em; }
 #banner:after { -moz-pointer-events: none; -webkit-pointer-events: none; -ms-pointer-events: none; pointer-events: none; -moz-transition: opacity 3s ease-in-out; -webkit-transition: opacity 3s ease-in-out; -ms-transition: opacity 3s ease-in-out; transition: opacity 3s ease-in-out; -moz-transition-delay: 1.25s; -webkit-transition-delay: 1.25s; -ms-transition-delay: 1.25s; transition-delay: 1.25s; content: ''; background: #2e3842; display: block; width: 100%; height: 100%; position: absolute; left: 0; top: 0; opacity: 0; }
 @media screen and (max-width: 736px) { #banner { padding: 7em 3em 5em 3em ; height: auto; min-height: 0; }
-  #banner h2 { font-size: 1.25em; }
   #banner br { display: none; }
   #banner .more { display: none; } }
 
@@ -783,7 +782,7 @@ body.is-loading #banner:after { opacity: 1; }
 @media screen and (max-width: 1280px) { #main > header { padding: 8em 3em 6em 3em ; } }
 @media screen and (max-width: 980px) { #main > header { padding: 10em 3em 8em 3em ; } }
 @media screen and (max-width: 736px) { #main > header { padding: 5em 3em 3em 3em ; }
-  #main > header h2 { font-size: 1.25em; margin: 0 0 1em 0; } }
+  #main > header h2 { margin: 0 0 1em 0; } }
 
 body.is-mobile #main > header { background-attachment: scroll; }
 
