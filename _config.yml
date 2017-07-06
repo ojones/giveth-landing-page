@@ -13,7 +13,7 @@ url: "http://giveth.io" # the base hostname & protocol for your site
 social:
   slack: http://slack.giveth.io
   twitter: https://twitter.com/givethio
-  github: https://github.com/givethio
+  github: https://github.com/giveth
   # github: https://medium.com/giveth/the-minime-token-open-sourced-by-giveth-2710c0210787
   # github: https://medium.com/giveth/the-vault-contract-open-sourced-by-giveth-fe2261f7b91b
   facebook-official: https://facebook.com/givethio
